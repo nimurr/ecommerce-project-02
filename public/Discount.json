@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "discoun": 15,
+        "name": "Smart watches",
+        "img": "https://i.ibb.co/QYYCwTd/e4b654e7de1ac596c31da4b9f1994793.png"
+    },
+    {
+        "id": "2",
+        "discoun": 10,
+        "name": "Laptop Pro",
+        "img": "https://i.ibb.co/HHCDSRr/67d46067797d63f72c5d238bab2c834f.png"
+    },
+    {
+        "id": "3",
+        "discoun": 5,
+        "name": "GoPro cameras",
+        "img": "https://i.ibb.co/5WmLmNB/2c0a4a3071479d3ea04dbef308c19301.png"
+    },
+    {
+        "id": "4",
+        "discoun": 25,
+        "name": "Headphones ",
+        "img": "https://i.ibb.co/wMWgzXK/7844418a11051c24070081697c1e9a58.png"
+    },
+    {
+        "id": "5",
+        "discoun": 30,
+        "name": "Canon camreras",
+        "img": "https://i.ibb.co/vDNcPC2/26e944afe4e9b344a9d08d2cdf13f6ac.png"
+    }
+]

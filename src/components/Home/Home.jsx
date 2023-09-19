@@ -1,7 +1,9 @@
+import Comdown from "./Comdown";
 
 export default function Home() {
     return (
-        <div className="flex lg:flex-row flex-col">
+        <div>
+            <div className="flex lg:flex-row flex-col gap-4">
             <div className="carousel lg:w-8/12 h-[80vh]">
                 <div id="slide1" className="carousel-item relative w-full">
                     <img src="https://i.ibb.co/RNbsgB3/Banner-board-800x420-2.png" className="w-full" />
@@ -35,6 +37,8 @@ export default function Home() {
             <div className="h-[80vh] ">
                 <img className="h-full w-full lg:w-auto" src="https://img.freepik.com/free-vector/flat-colorful-sale-background_23-2147723253.jpg?w=740&t=st=1695153243~exp=1695153843~hmac=525746ae70169a7a83396b5d1e992d2ae7b2a85f491eae13b4f4c744f6213571" alt="" />
             </div>
+            </div>
+            <Comdown></Comdown>
         </div>
     )
 }
