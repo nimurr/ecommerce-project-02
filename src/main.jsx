@@ -8,6 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './components/Home/Home.jsx';
+import User from './components/UserInfo/User.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/user',
-        element:<div>User Profile</div>
+        element:<User></User>
       },
       {
         path: '/message',
