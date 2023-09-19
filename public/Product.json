@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/vDNcPC2/26e944afe4e9b344a9d08d2cdf13f6ac.png",
+        "name": "Product 1",
+        "price": 19.99,
+        "discount_price": 15.99,
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/sRqwzvB/a2d288ce5bd52ddfac2945120df5102b.png",
+        "name": "Product 2",
+        "price": 29.99,
+        "discount_price": 24.99,
+        "rating": 4.2
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/5WmLmNB/2c0a4a3071479d3ea04dbef308c19301.png",
+        "name": "Product 3",
+        "price": 14.99,
+        "discount_price": 12.99,
+        "rating": 4.8
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/hX4KjVp/4a30e1c40080fa607437adb64caa3545.png",
+        "name": "Product 4",
+        "price": 39.99,
+        "discount_price": 34.99,
+        "rating": 4.0
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/6rDszT9/5b845d5b649289426578b53ebaef4c65.png",
+        "name": "Product 5",
+        "price": 24.99,
+        "discount_price": 19.99,
+        "rating": 4.6
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/HHCDSRr/67d46067797d63f72c5d238bab2c834f.png",
+        "name": "Product 6",
+        "price": 17.99,
+        "discount_price": 14.99,
+        "rating": 4.4
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/QYYCwTd/e4b654e7de1ac596c31da4b9f1994793.png",
+        "name": "Product 7",
+        "price": 49.99,
+        "discount_price": 39.99,
+        "rating": 4.7
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/vDNcPC2/26e944afe4e9b344a9d08d2cdf13f6ac.png",
+        "name": "Product 8",
+        "price": 22.99,
+        "discount_price": 18.99,
+        "rating": 4.3
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co/hX4KjVp/4a30e1c40080fa607437adb64caa3545.png",
+        "name": "Product 9",
+        "price": 27.99,
+        "discount_price": 22.99,
+        "rating": 4.9
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co/5WmLmNB/2c0a4a3071479d3ea04dbef308c19301.png",
+        "name": "Product 10",
+        "price": 34.99,
+        "discount_price": 29.99,
+        "rating": 4.1
+    },
+    {
+        "id": 11,
+        "img": "https://i.ibb.co/QYYCwTd/e4b654e7de1ac596c31da4b9f1994793.png",
+        "name": "Product 11",
+        "price": 21.99,
+        "discount_price": 17.99,
+        "rating": 4.4
+    },
+    {
+        "id": 12,
+        "img": "https://i.ibb.co/sRqwzvB/a2d288ce5bd52ddfac2945120df5102b.png",
+        "name": "Product 12",
+        "price": 31.99,
+        "discount_price": 27.99,
+        "rating": 4.6
+    }
+]
