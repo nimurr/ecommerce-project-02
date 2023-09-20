@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Home from './components/Home/Home.jsx';
 import User from './components/UserInfo/User.jsx';
+import AddTocart from './components/Home/AddTocart.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,13 @@ const router = createBrowserRouter([
     children:[
       {
         path: '/',
+        loader: () => fetch('https://fakestoreapi.com/products'),
         element:<Home></Home>
+      },
+      {
+        path: '/cart/:id',
+        loader: ({params}) => fetch(`https://fakestoreapi.com/products/${params.id}`),
+        element:<AddTocart></AddTocart>
       },
       {
         path: '/user',
