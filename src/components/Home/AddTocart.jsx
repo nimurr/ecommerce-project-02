@@ -11,7 +11,8 @@ export default function AddTocart() {
         <h2 className="my-2 text-xl font-semibold">{cartItem.title.slice(0,25)}</h2>
         <h2 className="text-5xl font-bold ">${cartItem.price}</h2>
         <p className="text-sm">{cartItem.description}</p>
-        <NavLink to={`/buyNow/${cartItem.id}`} className="bg-blue-600 text-white px-4 py-1 rounded mt-2"><i className='bx bx-cart-download' ></i> Buy Now</NavLink>
+        <br />
+        <NavLink to={`/buyNow/${cartItem.id}`} className="bg-blue-600 text-white px-4 py-2 rounded mt-2"><i className='bx bx-cart-download' ></i> Buy Now</NavLink>
         <br />
         <br />
         <NavLink to='/' className='bg-blue-600 text-white px-4 py-2 rounded mt-2'><i className='bx bxs-home-alt-2'></i> Go Home</NavLink>
