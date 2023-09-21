@@ -2,3 +2,11 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+.message-border-radius{
+  border-radius: 0px 10px 10px 10px;
+}
+.message-border-radius2{
+  border-radius: 10px 10px 0px 10px;
+}
+
+ 

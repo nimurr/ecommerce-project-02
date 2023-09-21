@@ -11,6 +11,7 @@ import Home from './components/Home/Home.jsx';
 import User from './components/UserInfo/User.jsx';
 import AddTocart from './components/Home/AddTocart.jsx';
 import BuyNow from './components/AddtoCartBuyNow/BuyNow.jsx';
+import Massage from './components/Message/Massage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,7 +40,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/message',
-        element:<div>User message</div>
+        element:<Massage></Massage>
       },
       {
         path: '/cart/',
