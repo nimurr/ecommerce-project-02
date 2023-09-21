@@ -10,6 +10,7 @@ import {
 import Home from './components/Home/Home.jsx';
 import User from './components/UserInfo/User.jsx';
 import AddTocart from './components/Home/AddTocart.jsx';
+import BuyNow from './components/AddtoCartBuyNow/BuyNow.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
         path: '/cart/:id',
         loader: ({params}) => fetch(`https://fakestoreapi.com/products/${params.id}`),
         element:<AddTocart></AddTocart>
+      },
+      {
+        path: '/buyNow/:id',
+        loader: ({params}) => fetch(`https://fakestoreapi.com/products/${params.id}`),
+        element:<BuyNow></BuyNow>
       },
       {
         path: '/user',
