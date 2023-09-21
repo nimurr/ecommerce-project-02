@@ -6,9 +6,9 @@ export default function User() {
   const orederList = useLoaderData(); 
 
   return (
-    <div className="w-5/12 mx-auto my-10">
+    <div className="md:w-5/12 mx-auto my-10">
       <h2 className="text-center text-4xl text-blue-600">User Info</h2>
-      <div className="text-center my-10 border-2 py-10 rounded w-8/12 mx-auto">
+      <div className="text-center my-10 border-2 py-10 rounded md:w-8/12 w-11/12 mx-auto">
         <img className="h-24 w-24 rounded-full mx-auto border-4 border-blue-500" src="https://i.ibb.co/Db3hWb3/1686378915854-2-1.png" alt="" />
         <h2 className="text-xl font-semibold my-2">Nimur Rahnam Nerob</h2>
         <p>Phone : +88 01708784404</p>
