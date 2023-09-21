@@ -6,7 +6,7 @@ export default function Footer() {
             <footer className="footer p-10 bg-base-200 text-base-content">
                 <aside>
                     <NavLink to='/' className="text-4xl text-blue-600 font-semibold cursor-pointer">E-mart</NavLink>
-                    <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
+                    <p>E-mart Industries Ltd.<br />Providing reliable tech since 1992</p>
                 </aside>
                 <nav>
                     <header className="footer-title">Services</header>
